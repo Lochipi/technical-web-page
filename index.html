@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>simple-page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!--||||||||||||||||| Font Awesome links ||||||||||||||||||-->
+    <script src="https://kit.fontawesome.com/8ed8e25ee9.js" crossorigin="anonymous"></script>
+    <!-- ||||||||| Add css external style sheet link tag here |||||||||||||| -->
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <header>
+            <i class="fa-brands fa-js"></i>
+            <h1>javascript guide article</h1>
+        </header>
+        <div id="nav_link_container">
+            <a href="#intro" class="nav_link">Introduction</a>
+            <a href="#setup" class="nav_link">Getting Started</a>
+            <a href="#first_code" class="nav_link">First Code</a>
+            <a href="#css" class="nav_link">CSS</a>
+            <a href="#frameworks" class="nav_link">Frameworks</a>
+            <a href="#conclusion" class="nav_link">Conclusion</a>
+        </div>
+    </nav>
+
+
+    <main id="main_doc">
+        <section id="intro">
+            <h1>JavaScript Article</h1>
+            <h2>Introduction</h2>
+            <p>JavaScript is a client-side scripting language, which means it runs on the user's web browser, as opposed
+                to running on the server-side like many other programming languages. This allows for fast and responsive
+                user experiences, as the browser can execute code on the fly without having to communicate with the
+                server.</p>
+            <p>JavaScript can be used for a variety of tasks, including manipulating the Document Object Model (DOM) of
+                a webpage, validating forms, and creating animations and games. It is also used for developing
+                server-side applications with Node.js.
+            </p>
+        </section>
+
+        <section class="main_sec" id="setup">
+            <h2>Getting Started</h2>
+            <p>Getting started with JavaScript is relatively easy and straightforward. Here are some steps you can
+                follow to begin learning JavaScript:</p>
+            <p>To get started you need to:
+            <ul>
+                <li>Set up a development environment: To write and run JavaScript code, you'll need a development
+                    environment</li>
+                <li>Learn the basics</li>
+                <li>Understand the DOM</li>
+                <li>Practice coding...</li>
+            </ul>
+            </p>
+            <p>Examples of prerequisites include:
+            <ul>
+                <li>Sublime Text, Visual Studio Code, Atom</li>
+                <li>Browser (chrome, opera ...)</li>
+            </ul>
+            </p>
+            Other tools you might need include a version control system like Git and a web server like Apache or Nginx.
+            </p>
+
+
+        </section>
+        <section class="main_sec" id="first_code">
+            <h2>My First JavaScript Code:</h2>
+            <p>The code likely consists of an HTML button element and a JavaScript function that is triggered when the
+                button is clicked. The function likely uses JavaScript's built-in Date object to get the current date
+                and time, and then displays it on the web page.
+            </p>
+            <code>
+        <h3>Here is an example of an JavaScript code that displays time:</h3>
+        <button type="button"
+            onclick="document.getElementById('demo').innerHTML = Date()">
+            Click me to display Date and Time.</button>
+            <p id="demo"></p>       
+      </code>
+
+        </section>
+        <section class="main_sec" id="css">
+            <h2>CSS</h2>
+            <p>CSS (Cascading Style Sheets) is the language used to style the look and feel of a web page. CSS is used
+                to define fonts,
+                colors, layouts, and other design elements.
+            </p>
+            <code>
+        <h3>
+        Here is an example of a CSS rule:</h3>
+        <br><p>
+        h1 {
+            font-size: 20px;
+            color: #333333;
+            font-family: sans-serif;
+            }
+      </p>
+    </code>
+
+        </section>
+        <section class="main_sec" id="frameworks">
+            <h2>JavaScript Frameworks</h2>
+            <p>JavaScript has multiple libraries and frameworks that are available and provide developers with
+                pre-written JS code to use for routine programming features and tasks
+            </p>
+            <code>
+        <h3>Here is an example of a JavaScript frameworks:</h3>
+         <ul>
+            <li>Angular.js</li>
+            <li>React</li>
+            <li>Vue.js</li>
+         </ul>
+    </code>
+
+        </section>
+        <section class="main_sec" id="Conclusion">
+            <h2>Conclusion</h2>
+            <p> JavaScript is a wonderful technology to use on the web. It is not that hard to learn and it is very
+                versatile. It plays nicely with other web technologies — such as HTML and CSS — and can even interact
+                with plugins such as Flash.</p>
+            <p>I've listed some websites that I think a beginner should start learning from down below:</p>
+            <ul>
+                <li>W3schools</li>
+                <li>javatpoint</li>
+                <li>mdndocs</li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
